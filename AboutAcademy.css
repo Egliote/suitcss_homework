@@ -1,0 +1,42 @@
+.Description-text {
+  color: #666666;
+  font-family: Arial, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.3em;
+}
+
+.Description-header {
+  color: #627d80;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.Description-subheader {
+  color: #fd9827;
+  font-size: 1.2em;
+  margin: 1.5em 0 0.5em 0;
+}
+
+.Description-detailsLink {
+  color: #899da0;
+}
+
+.Description-unorderedList {
+  padding-left: 1em;
+  list-style: none;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.Description-unorderedList li::before {
+  color: #fd9827;
+  content: "•";
+  display: inline-block;
+  margin-left: -1em;
+  width: 1em;
+}
+
+.Description-unorderedList--bulletArrow li::before {
+  content: "🡒";
+}
